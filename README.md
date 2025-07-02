@@ -20,6 +20,7 @@
 
 #### 创建小权限的限时token，推荐
 
+
 - 前往[https://github.com/settings/tokens?type=beta](https://github.com/settings/tokens?type=beta)创建个人token，建议使用Fine-grained tokens，避免token泄露导致不必要的麻烦。
 - 填写token的名称，用于自己区别干嘛用的。
 - 选择token有效期，最大时长为1年。一年后需要重新续期或重建，唯一缺点
@@ -35,7 +36,7 @@
 - 建议使用上面的小权限token，这个token无法指定某一个仓库的权限，也就是token一旦泄露将有可能导致其他人直接自由访问和修改你的所有仓库代码
 - 前往[https://github.com/settings/tokens/new](https://github.com/settings/tokens/new)创建
 - 填写token名称，选择有效期
-- `Select scopes` 勾选 `repo` 和 `workflow` 即可
+- `Select scopes` 勾选 `repo` 和 `workflow` 即可.
 
 #### 创建完毕后点击最底下的 `Generate token` 即可生成token，复制token并自己保存一下以备后续使用，关闭当前页面后将无法再看到它。
 

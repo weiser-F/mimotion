@@ -75,6 +75,7 @@ function convert_utc_to_shanghai {
   echo "北京时间: $minute $result * * *'"
 }
 
+
 function persist_execute_log {
   local event_name=$1
   local new_cron_hours=$2

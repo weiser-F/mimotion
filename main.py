@@ -13,6 +13,7 @@ import os
 import requests
 
 
+
 # 获取北京时间
 def get_beijing_time():
     target_timezone = pytz.timezone('Asia/Shanghai')
@@ -57,7 +58,7 @@ def desensitize_user_name(user):
     return f'{user[:3]}****{user[-4:]}'
 
 
-# 获取时间戳
+# 获取时间戳.
 def get_time():
     current_time = get_beijing_time()
     return "%.0f" % (current_time.timestamp() * 1000)
